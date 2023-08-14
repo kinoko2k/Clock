@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="とけい">
+<meta name="description" content="とけい">
+<meta name="twitter:title" content="とけい"/>
+<meta name="twitter:description" content="とけい"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="とけい"/>
+<meta property="og:site_name" content="とけい" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>とけい</title>
+</head>
+<body>
+<div id="clock-calendar"></div>
+<div id="colorButtons">
+    <button class="colorButton red">赤</button>
+    <button class="colorButton blue">青</button>
+    <button class="colorButton green">緑</button>
+    <button class="colorButton purple">紫</button>
+    <button class="colorButton yellow">黄</button>
+    <button class="colorButton black">黒</button>
+</div>
+<div id="fontChanger">
+    <button class="fontButton" onclick="changeFont('Arial, sans-serif')">ふつう</button>
+    <button class="fontButton" onclick="changeFont('Roboto Mono, Zen Kurenaido')">かっこいい</button>
+    <button class="fontButton" onclick="changeFont('Courier New, monospace')">ひろい</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
