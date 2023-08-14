@@ -18,13 +18,13 @@ function updateClockCalendar() {
 setInterval(updateClockCalendar, 1000); // Update every 1 second
 updateClockCalendar(); // Initial call to avoid delay
 
-const colorButtons = document.querySelectorAll('.colorButton');
+const colorButtons = document.querySelectorAll('.colorButton'); // Button run
 colorButtons.forEach(button => {
     button.addEventListener('click', () => {
         document.body.style.backgroundColor = getComputedStyle(button).backgroundColor;
     });
 });
     
-function changeFont(font) {
+function changeFont(font) { // FontButton run
     document.body.style.fontFamily = font;
 }
