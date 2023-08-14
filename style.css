@@ -60,7 +60,8 @@ p.time {
 
 .red { background-color: #e74c3c; color: white; }
 .blue { background-color: #3498db; color: white; }
-.green { background-color: #2ecc71; color: white; }
+/* #2ecc71 */
+.green { background-color: #16a085; color: white; }
 .purple { background-color: #9b59b6; color: white; }
 .yellow { background-color: #f39c12; color: white; }
 .black { background-color: black; color: black; }
